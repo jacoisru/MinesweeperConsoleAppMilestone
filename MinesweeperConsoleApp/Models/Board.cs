@@ -26,6 +26,7 @@ namespace Minesweeper.Models
             StartTime = DateTime.Now;
 
             Cells = new Cell[size, size];
+
             for (int r = 0; r < size; r++)
             {
                 for (int c = 0; c < size; c++)
@@ -36,3 +37,7 @@ namespace Minesweeper.Models
         }
     }
 }
+
+
+
+

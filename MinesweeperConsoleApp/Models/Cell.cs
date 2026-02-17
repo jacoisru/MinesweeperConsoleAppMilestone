@@ -14,7 +14,7 @@ namespace Minesweeper.Models
         public bool IsVisited { get; set; } = false;
         public bool IsBomb { get; set; } = false;
         public bool IsFlagged { get; set; } = false;
-
+        
         public int NumberOfBombNeighbors { get; set; } = 0;
 
         public bool HasSpecialReward { get; set; } = false;
